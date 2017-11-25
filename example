@@ -4,6 +4,6 @@ im Jahr ##YEAR##.
 Hier ist eine zufällige Zahl: ##RANDOM_NUMBER##
 
 Benutzerverzeichnis: ##USER_HOME##
-Benutzername:        ##USERNAME
+Benutzername:        ##USERNAME##
 aktueller Tag:       ##CURRENT_TIME##
 
