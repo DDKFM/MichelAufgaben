@@ -26,9 +26,9 @@ public class RegexPane extends BorderPane {
             variables.put("RANDOM_NUMBER", null);
 
             //TODO: implement variables
-            variables.put("USER_HOME", )//home directory of the current user
-            variables.put("CURRENT_TIME", );
-            variables.put("USERNAME", );
+            //variables.put("USER_HOME", )//home directory of the current user
+            //variables.put("CURRENT_TIME", );
+            //variables.put("USERNAME", );
 
             String replacedText = RegexExample.replaceVariables(textArea.getText(), variables);
             this.textArea.setText(replacedText);

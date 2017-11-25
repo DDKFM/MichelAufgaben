@@ -11,9 +11,11 @@ public class RegexExample {
     * extra: if the given variable is an instance of Date then format the Date in the format: dd.MM.yyyy
     * */
     public static String replaceVariables(String text, Map<String, Object> variables) {
-        /*
-        * Insert your Code here
-        *
-        * */
+
+        for(String key: variables.keySet()) {
+            text.replaceAll("##"+key+"##", variables.get(key).toString());
+        }
+        return text;
     }
+
 }
